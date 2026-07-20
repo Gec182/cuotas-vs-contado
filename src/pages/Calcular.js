@@ -225,7 +225,7 @@ export default function Calcular() {
 }
 
 function Resultado({ res }) {
-  const { tirPct, recargo, veredicto, mejorBenchmark, contado, cuotas, totalPagado } = res;
+  const { tirPct, recargo, veredicto, mejorBenchmark } = res;
 
   const titulos = {
     contado: 'Conviene pagar al contado o por transferencia',
